@@ -1,0 +1,12 @@
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-other-color);
+}

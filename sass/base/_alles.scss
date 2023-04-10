@@ -1,0 +1,26 @@
+header {
+    border-bottom: 1px solid #ececec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-white-fontbgr);
+    color: var(--primary-text-colo);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}

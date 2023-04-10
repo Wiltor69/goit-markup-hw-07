@@ -1,0 +1,86 @@
+.form {
+    display: block;
+    position: absolute;
+    width: 448px;
+
+    &__label {
+            display: block;
+            width: 448px;
+            height: 14px;
+            margin-bottom: 4px;
+        }
+    &__text {
+        display: block;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+    
+        letter-spacing: 0.01em;
+    
+        color: var(--text-other-color);
+    }
+}
+.form-icon {
+    position: relative;
+
+    width: 448px;
+
+    &__input {
+            display: block;
+            width: 100%;
+            height: 40px;
+    
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+            padding-left: 42px;
+    
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+            &:focus {
+                    outline: none;
+                    border-color: var(--button-wordfirst-color);
+                }
+            &:focus+.form-icon__name {
+                fill: var(--button-wordfirst-color);
+            }
+        }
+    &__name {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        display: block;
+        transform: translateY(-50%);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__textarea {
+        display: block;
+        resize: none;
+        width: 448px;
+        height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding: 16px;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+             
+        &:focus {
+                outline: none;
+                border-color: var(--button-wordfirst-color);
+            }
+        &::placeholder {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.17;
+            letter-spacing: 0.01em;
+        
+            color: rgba(117, 117, 117, 0.5);
+        }
+    
+    }
+}
+.form-icon:not(:last-child) {
+    margin-bottom: 10px;
+}
