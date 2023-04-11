@@ -10,7 +10,7 @@
     &__label {
             position: relative;
             display: block;
-            font-family: "Roboto";
+            font-family:var(--primary-font-family);
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -43,7 +43,7 @@
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     &__link {
-        font-family: "Roboto";
+        font-family: var(--primary-font-family);
         font-style: normal;
         font-weight: 400;
         font-size: 14px;

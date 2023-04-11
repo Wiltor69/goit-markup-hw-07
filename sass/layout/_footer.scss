@@ -84,7 +84,7 @@
     margin-right: auto;
     
     &__articl {
-            font-family: "Roboto";
+            font-family:var(--primary-font-family);
             font-style: normal;
             font-weight: 700;
             font-size: 14px;
@@ -117,7 +117,7 @@
                     border-color: var(--button-wordfirst-color);
                 }
             &::placeholder {
-                font-family: "Roboto";
+                font-family:var(--primary-font-family);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
